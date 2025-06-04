@@ -9,7 +9,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: 'https://zentrafi-frontend.vercel.app',
+  origin: 'https://zentrafi-frontend-4a7l.vercel.app',
     allowedHeaders: ['Content-Type', 'Authorization'],
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
